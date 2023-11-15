@@ -17,7 +17,7 @@ router.get('/Model/:typeId', (req, res)=>{
     vehicleControllers.getVehicleModelsByTheirVehicleType(req, res);
 });
 
-//Endpoint to Get Vehicle Models based on their type
+//Endpoint to rent a vehicle
 router.post('/Rent', (req, res)=>{
     vehicleControllers.rentAVehicle(req, res);
 });

@@ -5,6 +5,8 @@
 # Application basic signature
  --> http://localhost:3000/
 
+# To see Swagger API Documentation
+ --> http://localhost:3000/api-docs
 
 # This project is created with Express -
 --> npx express-generator --view=ejs
